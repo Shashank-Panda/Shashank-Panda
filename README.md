@@ -54,9 +54,9 @@ RushBee is one multi-tenant Node.js and MongoDB backend that serves a real-time 
 ## Toolbox
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go,java,nodejs,ts,py,express,spring,react,kafka,mongodb,redis,docker,kubernetes,gcp,prometheus&perline=15&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=go,java,nodejs,ts,py,express,spring,react,kafka,mongodb,redis,docker,kubernetes,gcp,prometheus&perline=15&theme=light">
-  <img alt="Go, Java, Node.js, TypeScript, Python, Express, Spring, React, Kafka, MongoDB, Redis, Docker, Kubernetes, Google Cloud, Prometheus" src="https://skillicons.dev/icons?i=go,java,nodejs,ts,py,express,spring,react,kafka,mongodb,redis,docker,kubernetes,gcp,prometheus&perline=15&theme=light" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go%2Cjava%2Cnodejs%2Cts%2Cpy%2Cexpress%2Cspring%2Creact%2Ckafka%2Cmongodb%2Credis%2Cdocker%2Ckubernetes%2Cgcp%2Cprometheus&perline=15&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=go%2Cjava%2Cnodejs%2Cts%2Cpy%2Cexpress%2Cspring%2Creact%2Ckafka%2Cmongodb%2Credis%2Cdocker%2Ckubernetes%2Cgcp%2Cprometheus&perline=15&theme=light">
+  <img alt="Go, Java, Node.js, TypeScript, Python, Express, Spring, React, Kafka, MongoDB, Redis, Docker, Kubernetes, Google Cloud, Prometheus" src="https://skillicons.dev/icons?i=go%2Cjava%2Cnodejs%2Cts%2Cpy%2Cexpress%2Cspring%2Creact%2Ckafka%2Cmongodb%2Credis%2Cdocker%2Ckubernetes%2Cgcp%2Cprometheus&perline=15&theme=light" width="100%">
 </picture>
 
 ## A year of commits
