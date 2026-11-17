@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-label="RushBee: a grid of seats by 15-minute buckets; a second booking for a taken slot is rejected with 409.">
+<style>
+  .title { font: 700 26px -apple-system,'Segoe UI Variable Display','Segoe UI',system-ui,Helvetica,Arial,sans-serif; fill: #E8EEF7; }
+  .blurb { font: 400 15px -apple-system,'Segoe UI Variable Display','Segoe UI',system-ui,Helvetica,Arial,sans-serif; fill: #8FA1BD; }
+  .lbl { font: 500 13px ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace; fill: #E8EEF7; }
+  .sm { font: 400 12px ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace; fill: #8FA1BD; }
+  .on { font: 600 12px -apple-system,'Segoe UI Variable Display','Segoe UI',system-ui,Helvetica,Arial,sans-serif; fill: #0F1A2E; }
+</style>
+<rect x="1" y="1" width="598" height="328" rx="16" fill="#16243D" stroke="#22334F" stroke-width="1.5"/>
+<text x="32" y="54" class="title">RushBee</text>
+<text x="32" y="88" class="blurb">Software that runs gaming cafés: live sessions, wallets, bookings,</text><text x="32" y="110" class="blurb">food orders and a kiosk on every gaming PC.</text>
+<text x="110" y="158" class="sm">18:00</text><text x="180" y="158" class="sm">18:15</text><text x="250" y="158" class="sm">18:30</text><text x="320" y="158" class="sm">18:45</text><text x="390" y="158" class="sm">19:00</text><text x="32" y="186" class="lbl">PC-01</text><rect x="104" y="168" width="64" height="26" rx="5" fill="#F2B544"/><rect x="174" y="168" width="64" height="26" rx="5" fill="#F2B544"/><rect x="244" y="168" width="64" height="26" rx="5" fill="#F2B544"/><rect x="314" y="168" width="64" height="26" rx="5" fill="#2A3B5A"/><rect x="384" y="168" width="64" height="26" rx="5" fill="#2A3B5A"/><text x="32" y="220" class="lbl">PC-02</text><rect x="104" y="202" width="64" height="26" rx="5" fill="#2A3B5A"/><rect x="174" y="202" width="64" height="26" rx="5" fill="#2A3B5A"/><rect x="244" y="202" width="64" height="26" rx="5" fill="#F2B544"/><rect x="314" y="202" width="64" height="26" rx="5" fill="#F2B544"/><rect x="384" y="202" width="64" height="26" rx="5" fill="#F2B544"/><text x="32" y="254" class="lbl">PC-03</text><rect x="104" y="236" width="64" height="26" rx="5" fill="#F2B544"/><rect x="174" y="236" width="64" height="26" rx="5" fill="#F2B544"/><rect x="244" y="236" width="64" height="26" rx="5" fill="#2A3B5A"/><rect x="314" y="236" width="64" height="26" rx="5" fill="#2A3B5A"/><rect x="384" y="236" width="64" height="26" rx="5" fill="#2A3B5A"/><rect x="381" y="199" width="70" height="32" rx="7" fill="none" stroke="#FF6F7D" stroke-width="2.5" stroke-dasharray="5 4"/><text x="462" y="214" class="lbl" style="fill:#FF6F7D">409 conflict</text><text x="462" y="230" class="sm">second booking</text>
+<line x1="32" y1="270" x2="568" y2="270" stroke="#22334F"/>
+<text x="32" y="296" class="sm">One lock row per seat per 15 minutes under a unique index, so a</text>
+<text x="32" y="314" class="sm">second booking for the same slot fails in the database itself.</text>
+</svg>

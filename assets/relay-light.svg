@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-label="LLM-Relay: an app calls Relay, which routes to the cheapest of Ollama, OpenAI or Anthropic that meets the quality floor.">
+<style>
+  .title { font: 700 26px -apple-system,'Segoe UI Variable Display','Segoe UI',system-ui,Helvetica,Arial,sans-serif; fill: #14213A; }
+  .blurb { font: 400 15px -apple-system,'Segoe UI Variable Display','Segoe UI',system-ui,Helvetica,Arial,sans-serif; fill: #5A6B86; }
+  .lbl { font: 500 13px ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace; fill: #14213A; }
+  .sm { font: 400 12px ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace; fill: #5A6B86; }
+  .on { font: 600 12px -apple-system,'Segoe UI Variable Display','Segoe UI',system-ui,Helvetica,Arial,sans-serif; fill: #F6F8FC; }
+</style>
+<rect x="1" y="1" width="598" height="328" rx="16" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1.5"/>
+<text x="32" y="54" class="title">LLM-Relay</text>
+<text x="32" y="88" class="blurb">An OpenAI-compatible gateway in Go. It finds the cheapest model</text><text x="32" y="110" class="blurb">that still clears your quality floor, and proves the saving first.</text>
+
+<rect x="32" y="181" width="96" height="30" rx="6" fill="#F6F8FC" stroke="#DCE3EE" stroke-width="1.5"/>
+<text x="46" y="201" class="lbl">your app</text>
+<path d="M128 196 H176" stroke="#6A55E8" stroke-width="2.5"/>
+<rect x="176" y="170" width="132" height="52" rx="8" fill="#F6F8FC" stroke="#6A55E8" stroke-width="2"/>
+<text x="192" y="193" class="lbl">relay</text>
+<text x="192" y="211" class="sm">classify, route</text>
+<path d="M308 196 C 345 196, 345 154, 382 154" fill="none" stroke="#DCE3EE" stroke-width="1.5"/><rect x="382" y="139" width="186" height="30" rx="6" fill="#F6F8FC" stroke="#DCE3EE" stroke-width="1.5"/><text x="396" y="159" class="lbl">ollama/llama3</text><path d="M308 196 C 345 196, 345 196, 382 196" fill="none" stroke="#6A55E8" stroke-width="2.5"/><rect x="382" y="181" width="186" height="30" rx="6" fill="#6A55E8" stroke="#6A55E8" stroke-width="1.5"/><text x="396" y="201" class="on">openai/gpt-mini</text><path d="M308 196 C 345 196, 345 238, 382 238" fill="none" stroke="#DCE3EE" stroke-width="1.5"/><rect x="382" y="223" width="186" height="30" rx="6" fill="#F6F8FC" stroke="#DCE3EE" stroke-width="1.5"/><text x="396" y="243" class="lbl">anthropic/opus</text>
+<line x1="32" y1="270" x2="568" y2="270" stroke="#DCE3EE"/>
+<text x="32" y="296" class="sm">Every swap is disclosed in a header. Shadow mode logs what it would</text>
+<text x="32" y="314" class="sm">have saved before you let it change anything.</text>
+</svg>

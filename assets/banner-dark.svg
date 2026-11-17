@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Shashank Shekhar Panda, backend and platform engineer. A trace waterfall listing things Shashank builds: LLM routing, booking locks, wallet holds, an outbox dispatcher and kiosk alerts.">
+<style>
+  .name { font: 700 46px -apple-system,'Segoe UI Variable Display','Segoe UI',system-ui,Helvetica,Arial,sans-serif; fill: #E8EEF7; letter-spacing: -0.5px; }
+  .role { font: 400 21px -apple-system,'Segoe UI Variable Display','Segoe UI',system-ui,Helvetica,Arial,sans-serif; fill: #8FA1BD; }
+  .span { font: 500 15px ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace; fill: #E8EEF7; }
+  .tick { font: 400 12px ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace; fill: #8FA1BD; }
+  .inbar { font: 600 12.5px -apple-system,'Segoe UI Variable Display','Segoe UI',system-ui,Helvetica,Arial,sans-serif; fill: #0F1A2E; animation: fade .4s ease-out both; }
+  .dur { font: 400 12.5px ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace; fill: #8FA1BD; animation: fade .4s ease-out both; }
+  .row { animation: fade .3s ease-out both; }
+  .bar { animation: grow .7s cubic-bezier(.2,.8,.2,1) both; }
+  .cursor { animation: sweep 2.1s cubic-bezier(.45,0,.2,1) .3s forwards; opacity: 0; }
+  @keyframes grow { from { transform: scaleX(0); } }
+  @keyframes fade { from { opacity: 0; } }
+  @keyframes sweep { 0% { opacity: .9; transform: translateX(0); } 90% { opacity: .9; } 100% { opacity: 0; transform: translateX(740px); } }
+  @media (prefers-reduced-motion: reduce) {
+    .row, .inbar, .dur { animation: none; }
+    .bar { animation: none; }
+    .cursor { display: none; }
+  }
+</style>
+<rect width="1200" height="440" rx="18" fill="#0F1A2E"/>
+<text x="56" y="92" class="name">Shashank Shekhar Panda</text>
+<text x="56" y="130" class="role">Backend &amp; platform engineer. I build the parts that have to be right: money, time and messages.</text>
+<rect x="36" y="152" width="1128" height="280" rx="12" fill="#16243D"/>
+<line x1="404.0" y1="182" x2="404.0" y2="406" stroke="#22334F" stroke-width="1"/><text x="410.0" y="176" class="tick">0 ms</text><line x1="589.0" y1="182" x2="589.0" y2="406" stroke="#22334F" stroke-width="1"/><text x="595.0" y="176" class="tick">60 ms</text><line x1="774.0" y1="182" x2="774.0" y2="406" stroke="#22334F" stroke-width="1"/><text x="780.0" y="176" class="tick">120 ms</text><line x1="959.0" y1="182" x2="959.0" y2="406" stroke="#22334F" stroke-width="1"/><text x="965.0" y="176" class="tick">180 ms</text><line x1="1144.0" y1="182" x2="1144.0" y2="406" stroke="#22334F" stroke-width="1"/><text x="1138.0" y="176" class="tick" text-anchor="end">240 ms</text>
+
+  <g class="row" style="animation-delay:0.20s">
+    
+    <text x="56" y="211" class="span">GET /shashank-panda</text>
+    <rect x="404.0" y="196" width="740.0" height="20" rx="4" fill="#5B6E8F" class="bar" style="animation-delay:0.35s;transform-origin:404.0px 206px"/>
+    <text x="414.0" y="210.5" class="inbar" style="animation-delay:0.70s"></text>
+    <text x="1134.0" y="210.5" class="inbar" text-anchor="end" style="animation-delay:0.70s">240 ms</text>
+  </g>
+  <g class="row" style="animation-delay:0.42s">
+    <path d="M62 216 V242 H70" fill="none" stroke="#22334F" stroke-width="1.5"/>
+    <text x="74" y="247" class="span">relay.route</text>
+    <rect x="418.8" y="232" width="281.2" height="20" rx="4" fill="#9B8CFF" class="bar" style="animation-delay:0.57s;transform-origin:418.8px 242px"/>
+    <text x="428.8" y="246.5" class="inbar" style="animation-delay:0.92s">cheapest model above the quality floor</text>
+    <text x="708.0" y="246.5" class="dur" style="animation-delay:0.92s">91 ms</text>
+  </g>
+  <g class="row" style="animation-delay:0.64s">
+    <path d="M62 216 V278 H70" fill="none" stroke="#22334F" stroke-width="1.5"/>
+    <text x="74" y="283" class="span">booking.lock</text>
+    <rect x="485.4" y="268" width="244.2" height="20" rx="4" fill="#F2B544" class="bar" style="animation-delay:0.79s;transform-origin:485.4px 278px"/>
+    <text x="495.4" y="282.5" class="inbar" style="animation-delay:1.14s">seat × 15 min, unique index</text>
+    <text x="737.6" y="282.5" class="dur" style="animation-delay:1.14s">79 ms</text>
+  </g>
+  <g class="row" style="animation-delay:0.86s">
+    <path d="M62 216 V314 H70" fill="none" stroke="#22334F" stroke-width="1.5"/>
+    <text x="74" y="319" class="span">wallet.hold</text>
+    <rect x="655.6" y="304" width="214.6" height="20" rx="4" fill="#3CC4B4" class="bar" style="animation-delay:1.01s;transform-origin:655.6px 314px"/>
+    <text x="665.6" y="318.5" class="inbar" style="animation-delay:1.36s">authorise now, capture once</text>
+    <text x="878.2" y="318.5" class="dur" style="animation-delay:1.36s">70 ms</text>
+  </g>
+  <g class="row" style="animation-delay:1.08s">
+    <path d="M62 216 V350 H70" fill="none" stroke="#22334F" stroke-width="1.5"/>
+    <text x="74" y="355" class="span">outbox.dispatch</text>
+    <rect x="766.6" y="340" width="214.6" height="20" rx="4" fill="#5AA2FF" class="bar" style="animation-delay:1.23s;transform-origin:766.6px 350px"/>
+    <text x="776.6" y="354.5" class="inbar" style="animation-delay:1.58s">claim, backoff, dead-letter</text>
+    <text x="989.2" y="354.5" class="dur" style="animation-delay:1.58s">70 ms</text>
+  </g>
+  <g class="row" style="animation-delay:1.30s">
+    <path d="M62 216 V386 H70" fill="none" stroke="#22334F" stroke-width="1.5"/>
+    <text x="74" y="391" class="span">kiosk.alert</text>
+    <rect x="840.6" y="376" width="244.2" height="20" rx="4" fill="#FF6F7D" class="bar" style="animation-delay:1.45s;transform-origin:840.6px 386px"/>
+    <text x="850.6" y="390.5" class="inbar" style="animation-delay:1.80s">spoken if the game is fullscreen</text>
+    <text x="1092.8" y="390.5" class="dur" style="animation-delay:1.80s">79 ms</text>
+  </g>
+<line x1="404" y1="182" x2="404" y2="406" stroke="#E8EEF7" stroke-width="1.5" class="cursor"/>
+</svg>
